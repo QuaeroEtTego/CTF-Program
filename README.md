@@ -7,7 +7,7 @@ gcc -o pogram main.c -lssl -lcrypto
 1) Copy the program
 2) Add root as the file owner: ``sudo chown root program``
 3) Set the SUID: ``sudo chmod u+s program``
-4) Verify that the file is executable: `` ls -l program``
+4) Verify that the file is executable: ``ls -l program``
 
 ## Write-ups
 1) Check the file permission and notice the SUID
