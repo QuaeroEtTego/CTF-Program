@@ -130,6 +130,7 @@ void hello(void) {
     fprintf(stdout, "%s\n", buffer);
 }
 
+// https://ephemeral.cx/2013/12/writing-a-self-mutating-x86_64-c-program/
 bool change_page_permissions_of_address(void *addr) {
     const int page_size = getpagesize();
     addr -= (unsigned long) addr % page_size;
